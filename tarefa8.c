@@ -14,7 +14,6 @@
 
 //definindo pinos botões e leds
 #define joys_botton 22   
-#define BOTTB 6 
 #define BOTTON_A 5
 
 #define LED_RED 13 
@@ -53,10 +52,6 @@ int main() {
 
     gpio_set_irq_enabled_with_callback(joys_botton, GPIO_IRQ_EDGE_FALL, true, &callba);
     gpio_set_irq_enabled_with_callback(BOTTON_A, GPIO_IRQ_EDGE_FALL, true, &callba);
-
-    gpio_init(BOTTB);
-    gpio_set_dir(BOTTB, GPIO_IN);
-    gpio_pull_up(BOTTB);
 
 
     gpio_init(LED_GREEN);
