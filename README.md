@@ -13,7 +13,9 @@ Este código implementa o controle de LEDs e a exibição de desenhos em um disp
 - **LEDs RGB** para indicar o estado do sistema.
 
 ---
-
+### Video
+link: https://www.youtube.com/watch?v=HV-YIElahpg
+---
 ## Pinos Utilizados
 
 ### Joystick:
